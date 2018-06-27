@@ -8,6 +8,7 @@ archlinuxで基本的に使っている設定集です
 * i3
 	* i3 window managerの設定
 	* `~/.config`のなかにいれる
+	* `pacman -S alsa-utils` とやる
 	* デフォルトとの相違点
 		* ファンクションキーで音量調整
 		* ファンクションキーで輝度調整

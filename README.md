@@ -19,4 +19,4 @@ archlinuxで基本的に使っている設定集です
 	* grubのtheme
 * xorg.conf.d
 	* 画面サイズを設定して適切なdpiにする(2560x1440 13.3inch wideでdpiが180くらいになるようにしたと思う)
-
+	* `sudo pacman -S xf86-video-intel`

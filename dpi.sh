@@ -1,8 +1,8 @@
 cd `dirname $0`
 
-pacman -S xf86-video-intel --noconfirm
+sudo pacman -S xf86-video-intel --noconfirm
 
-cp xorg.conf.d/* /etc/X11/xorg.conf.d/
+sudo cp xorg.conf.d/* /etc/X11/xorg.conf.d/
 
 if [ ! -f $HOME/.xprofile ]; then
     # 存在しない場合

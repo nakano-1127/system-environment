@@ -15,5 +15,9 @@ rm -rf yaourt
 #chromeをインストール
 yaourt -S google-chrome --noconfirm
 
+#vscodeをインストール
+yaourt -S visual-studio-code-bin --noconfirm
+
 #puddletagをインストール
 yaourt -S puddletag --noconfirm
+

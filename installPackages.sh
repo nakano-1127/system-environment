@@ -1,6 +1,3 @@
-#ターミナルエミュレータ"sakura"をインストール
-pacman -S sakura --noconfirm
-
 #chromiumをインストール
 pacman -S chromium --noconfirm
 

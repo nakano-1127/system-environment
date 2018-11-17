@@ -1,5 +1,7 @@
 cd `dirname $0`
 
+sudo pacman -S sakura --noconfirm
+
 #i3の設定
 if [ ! -d $HOME/.config/i3 ]; then
     mkdir -p $HOME/.config/i3

@@ -15,4 +15,4 @@ grub-mkconfig -o /boot/grub/grub.cfg
 # 次起動したときにやっておくと便利なこと
 pacman -S git --noconfirm
 pacman -S networkmanager --noconfirm
-systemctl enable networkmanager
+systemctl enable NetworkManager

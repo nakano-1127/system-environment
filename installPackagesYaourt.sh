@@ -21,6 +21,9 @@ yaourt -S visual-studio-code-bin --noconfirm
 #slackをインストール
 yaourt -S slack-desktop --noconfirm
 
+#pa-applet
+yaourt -S pa-applet-git --noconfirm
+
 #puddletagをインストール
 yaourt -S puddletag --noconfirm
 

@@ -1,5 +1,5 @@
 # ユーザー追加
-pacman -S zsh --noconfrim
+pacman -S zsh --noconfirmf
 useradd -m -G wheel -s /bin/zsh yui
 passwd yui
 visudo

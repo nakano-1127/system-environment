@@ -1,16 +1,16 @@
 #chromiumをインストール
-pacman -S chromium --noconfirm
+sudo pacman -S chromium --noconfirm
 
 ##gitをインストール
-#pacman -S git --noconfirm
-#git config --global user.email "ynakano1127@gmail.com"
-#git config --global user.name "ynakano1127"
+# sudo pacman -S git --noconfirm
+# git config --global user.email "ynakano1127@gmail.com"
+# git config --global user.name "ynakano1127"
 
 #pcmanfmをインストール
-pacman -S pcmanfm --noconfirm
+sudo pacman -S pcmanfm --noconfirm
 
 #unzip
-pacman -S unzip --noconfirm
+sudo pacman -S unzip --noconfirm
 
-pacman -S otf-ipafont --noconfirm
+sudo pacman -S otf-ipafont --noconfirm
 

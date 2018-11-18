@@ -18,6 +18,9 @@ yaourt -S google-chrome --noconfirm
 #vscodeをインストール
 yaourt -S visual-studio-code-bin --noconfirm
 
+#slackをインストール
+yaourt -S slack-desktop --noconfirm
+
 #puddletagをインストール
 yaourt -S puddletag --noconfirm
 

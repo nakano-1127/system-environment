@@ -15,6 +15,7 @@ floating_modifier $mod
 exec --no-startup-id feh --bg-scale ~/Pictures/k-on.jpg 
 exec --no-startup-id pa-applet
 exec --no-startup-id fcitx
+exec --no-startup-id nm-applet
 
 bindsym $mod+Return exec sakura
 bindsym $mod+Shift+Return exec google-chrome-stable

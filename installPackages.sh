@@ -14,3 +14,6 @@ sudo pacman -S unzip --noconfirm
 
 sudo pacman -S otf-ipafont --noconfirm
 
+sudo pacman -S arandr --noconfirm
+
+sudo pacman -S network-manager-applet --noconfirm

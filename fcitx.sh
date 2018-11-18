@@ -1,12 +1,10 @@
 cd $HOME
 
-pacman -S fcitx-im fcitx-configtool fcitx-mozc
+sudo pacman -S fcitx-im fcitx-configtool fcitx-mozc --noconfirm
 
-cat > .xprofile << "EOF"
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS=@im=fcitx
-EOF
+echo 'export GTK_IM_MODULE=fcitx' >> .xprofile
+echo 'export QT_IM_MODULE=fcitx' >> .xprofile
+echo 'export XMODIFIERS=@im=fcitx' >> .xprofile
 
 echo 'i3configにfcitxを起動するこまんどを書いてください'
 echo 'ログアウトしてログインしなおしてください'

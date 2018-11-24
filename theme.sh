@@ -1,6 +1,6 @@
-sudo pacman -S lxappearance
+sudo pacman -S lxappearance --noconfirm
 lxappearance
-sudo pacman -S qt5-styleplugins
+sudo pacman -S qt5-styleplugins --noconfirm
 qtconfig-qt4
 # ~/.config/Trolltech.confに
 # ```

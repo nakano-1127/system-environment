@@ -17,3 +17,13 @@ sudo pacman -S otf-ipafont --noconfirm
 sudo pacman -S arandr --noconfirm
 
 sudo pacman -S network-manager-applet --noconfirm
+
+sudo pacman -S htop --noconfirm
+
+sudo pacman -S openssh --noconfirm
+
+sudo pacman -S qtcreator --noconfirm
+
+sudo pacman -S mousepad --noconfirm
+
+sudo pacman -S qalculate-gtk --noconfirm

@@ -1,4 +1,5 @@
 sudo pacman -S lxappearance --noconfirm
+sudo pacman -S breeze breeze-gtk --noconfirm
 lxappearance
 sudo pacman -S qt5-styleplugins --noconfirm
 qtconfig-qt4

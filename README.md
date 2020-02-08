@@ -24,3 +24,6 @@ GDK_BACKEND=x11
 swaymsg -t command output eDP-1 scale 0.8
 swaymsg -t command output HDMI-A-1 scale 0.5
 ```
+
+## sway
+`sway/config`を`~/.config/sway/config`へ

@@ -1,11 +1,12 @@
 cd $HOME
 
-sudo pacman -S fcitx-im fcitx-configtool fcitx-mozc --noconfirm
+sudo pacman -S fcitx-gtk3 fcitx-configtool fcitx-mozc --noconfirm
 
-echo 'export GTK_IM_MODULE=fcitx' >> .xprofile
-echo 'export QT_IM_MODULE=fcitx' >> .xprofile
-echo 'export XMODIFIERS=@im=fcitx' >> .xprofile
+echo 'GTK_IM_MODULE=fcitx' >> ~/.pam_environment
+echo 'QT_IM_MODULE=fcitx' >> ~/.pam_environment
+echo 'XMODIFIERS=@im=fcitx' >> ~/.pam_environment
 
-echo 'i3configにfcitxを起動するこまんどを書いてください'
-echo 'ログアウトしてログインしなおしてください'
-echo 'fcitx-configtoolを設定したらうまく動くでしょう'
+echo 'exec fcitx' >> ~/.config/sway/config
+
+echo 'fcitx-configtoolを設定してください'
+echo 'ログインし直してください'

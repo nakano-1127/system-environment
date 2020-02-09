@@ -20,7 +20,7 @@ set $term sakura
 # on the original workspace that the command was run on.
 set $menu dmenu_path | dmenu | xargs swaymsg exec --
 
-font Noto Sans CJK JP Light 21
+font Noto Sans CJK JP Light 20
 
 default_border pixel 1
 default_floating_border normal
@@ -76,7 +76,7 @@ xwayland enable
     # Start a terminal
     bindsym $mod+Return exec $term
     # Start browser
-    bindsym $mod+Shift+Return exec chromium
+    bindsym $mod+Shift+Return exec google-chrome-stable
 
     # Kill focused window
     bindsym $mod+Shift+q kill
@@ -220,12 +220,8 @@ bar {
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
     status_command while date +'%Y-%m-%d %l:%M:%S %p'; do sleep 1; done
+    font Inconsolata 22
 
-#    colors {
-#        statusline #ffffff
-#        background #323232
-#        inactive_workspace #32323200 #32323200 #5c5c5c
-#    }
         bindsym button4 nop
         bindsym button5 nop
         strip_workspace_numbers yes

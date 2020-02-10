@@ -21,6 +21,8 @@ Xft.dpi: 180
 ```
 GDK_SCALE=2
 GDK_BACKEND=x11
+QT_SCALE_FACTOR=1
+QT_QPA_PLATFORM=xcb
 ```
 * `~/display.sh`  
 `sh ./display.sh`
